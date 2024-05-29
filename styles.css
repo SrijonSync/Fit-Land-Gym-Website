@@ -1,0 +1,894 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  height: 60px; /* Adjust as per your logo's aspect ratio */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('Gym Pic.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: calc(100vh - 60px); /* Adjust the height if your nav is taller or shorter */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero::after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 10;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.Start-now-btn {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+.Start-now-btn:hover {
+  background-color: #c2185b;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+
+
+
+  
+/* styles.css,,,homeeeeeeeeee */
+
+/* Reset default styles */
+
+
+/* styles.css */
+
+* /* Reset default styles and set base styles */
+/* styles.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles specific to the .Home-Page class on the body */
+.Home-Page {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Home-Page header {
+  background: #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Home-Page .logo {
+  max-width: 200px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.Home-Page .hero {
+  background: url('Gym Pic4.jpg') no-repeat center center/cover; /* Replace with the path to your image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.Home-Page .hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay for text contrast */
+  z-index: 1;
+}
+
+.Home-Page .hero-inner {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.Home-Page .hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.Home-Page .hero-description {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.Home-Page .cta-button {
+  padding: 1rem 2rem;
+  background-color: #e62429; /* Button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.Home-Page .cta-button:hover {
+  background-color: #cc2026;
+}
+
+.Home-Page footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .Home-Page .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .Home-Page .hero-description {
+    font-size: 1rem;
+  }
+
+  .Home-Page .cta-button {
+    padding: 0.8rem 1.6rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+/*************packages*********
+/* styles.css */
+
+/* Basic reset for all elements */
+/* styles.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body with class 'packages-page' specific styles */
+.packages-page {
+  font-family: 'Arial', sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styling */
+.packages-page header {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #000;
+  text-align: center;
+}
+
+.packages-page .logo {
+  max-width: 150px; /* Adjust as needed */
+  height: auto;
+}
+
+/* Main content area styling */
+.packages-page main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Section header styling */
+.packages-page #about h1 {
+  color: #e62429; /* Example brand color for headings */
+  margin-bottom: 1rem;
+}
+
+/* Table styling */
+.packages-page table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.packages-page th,
+.packages-page td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.packages-page th {
+  background-color: #004d99;
+  color: white;
+}
+
+/* Row hover effect */
+.packages-page tr:not(:first-child):hover {
+  background-color: #f4f4f4;
+}
+
+/* Call to action button styling within .Gym Pic5 */
+.packages-page .cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #5cb85c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.packages-page .cta-button:hover {
+  background-color: #4cae4c;
+}
+
+/* Background image for the .gym-pic5 */
+.packages-page .gym-pic5 {
+  background: url('gym-pic5.jpg') no-repeat center center/cover; /* Replace with the correct path */
+  position: relative;
+  margin-top: 30px;
+  height: 300px; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer styling */
+.packages-page footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .packages-page .logo {
+      width: 120px;
+  }
+
+  .packages-page .cta-button {
+      padding: 8px 16px;
+  }
+}
+
+
+
+
+
+
+
+
+/**********Classes**********
+/* styles.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling for classes page */
+body.classes-page {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #fff; /* Set a plain white background for the whole page */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Use viewport height to ensure footer is at bottom */
+}
+
+/* Centered container for content, excluding footer */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto; /* Center in the middle of the page vertically */
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  background-color: #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Logo styling within header */
+header .logo {
+  max-width: 200px; /* Adjust as needed */
+}
+
+/* Main content styling */
+main {
+  flex: 1; /* Allows main content to grow and footer to stick at the bottom */
+  padding: 20px 0;
+}
+
+/* Class schedule section styling */
+#class-schedule {
+  margin-bottom: 40px;
+}
+
+/* Title within class schedule */
+#class-schedule h1 {
+  color: #004d99; /* Dark blue for the main title */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Subtitle styling */
+.schedule h2 {
+  margin-bottom: 10px;
+  color: #e62429; /* Brand color for subheadings */
+}
+
+/* Paragraph styling within schedule section */
+.schedule p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* Day schedule styling */
+.day-schedule, .day-schedule.weekend {
+  background: url('gym-pic6.jpg') no-repeat center center; /* Add your background image here */
+  background-size: cover; /* Cover the timing sections */
+  padding: 20px;
+  margin-bottom: 20px; /* Spacing between each day-schedule */
+  color: #fff; /* White text color for better readability */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* H3 heading within day schedule */
+.day-schedule h3, .day-schedule.weekend h3 {
+  background-color: transparent; /* Remove the background color from h3 */
+  color: #fff; /* White text color */
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* Time slot list styling */
+ul.time-slots {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Time slot list item styling */
+ul.time-slots li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Last list item border removal */
+ul.time-slots li:last-child {
+  border-bottom: none;
+}
+
+
+
+/* CTA button styling */
+.classes-page .cta-button {
+  display: block; /* Full-width block for better tap target on mobile */
+  background-color: #32a852; /* A fresh green for the button to stand out */
+  color: #fff;
+  padding: 12px 20px; /* Slightly reduced padding for a tighter button */
+  margin: 30px auto; /* Centered button with vertical margin for spacing */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s; /* Smoother transition for color change */
+  text-align: center; /* Ensure text is centered */
+  width: fit-content; /* Button width to fit its content */
+  border: 2px solid transparent; /* Transparent border to maintain the layout on hover */
+}
+
+/* CTA button hover effect */
+.classes-page .cta-button:hover {
+  background-color: #287a3d; /* A darker green for the hover state */
+  border-color: #fff; /* White border on hover for contrast */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .classes-page .container {
+    width: 95%;
+  }
+
+  .classes-page header .logo {
+    width: 150px;
+  }
+}
+
+
+
+
+/*******Payment plan**************
+/* Base styles */
+/* Base styles for the Payment Plans Page */
+.payment-plans-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+}
+
+.payment-plans-page header {
+  background: #050e14;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.payment-plans-page header .logo {
+  max-width: 150px;
+}
+
+.payment-plans-page main {
+  padding: 20px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.payment-plans-page h1 {
+  color: #0077cc;
+}
+
+.payment-plans-page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.payment-plans-page table th,
+.payment-plans-page table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.payment-plans-page table th {
+  background-color: #0077cc;
+  color: white;
+}
+
+.payment-plans-page table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+.payment-plans-page .payment-methods {
+  background: #e7f6fc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.payment-plans-page .payment-methods h2 {
+  color: #333;
+}
+
+.payment-plans-page .payment-methods ul {
+  list-style: none;
+  padding: 0;
+}
+
+.payment-plans-page .payment-methods li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.payment-plans-page .payment-methods li img {
+  margin-right: 10px;
+}
+
+.payment-plans-page footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Icons for payment methods */
+.payment-plans-page .bikash-icon {
+  background-image: url('bkash-pic7.png');
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.payment-plans-page .nagad-icon {
+  background-image: url('nagad-pic8.png');
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+}
+
+/* Add any additional styles you need here */
+
+
+
+
+/*********Contact-Page*******/
+
+.contact-page {
+  font-family: 'Arial', sans-serif;
+  background-image: url('gym-pic8.jpg'); /* Replace with the actual path */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.contact-page header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-page header .logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.contact-page main {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.contact-page h1, .contact-page h2 {
+  color: #ff9800;
+  text-align: center;
+}
+
+.contact-page section {
+  margin-bottom: 20px;
+}
+
+.contact-page p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.contact-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-page ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.contact-page footer {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-page footer p {
+  margin: 0;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+  .contact-page main {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .contact-page header .logo {
+    max-width: 100px;
+  }
+}
+
+
+
+
+/**********login page********* 
+/* Basic Reset */
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles specifically for the login page */
+  
+  .login-page {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #6db9ef, #7ee8fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-page {
+    background-image: url('Gym Pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: calc(100vh - 60px); /* Adjust the height if your nav is taller or shorter */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  .login-page .auth-container {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-page h2 {
+    color: #333;
+    margin-bottom: 2em;
+  }
+  
+  .login-page .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .login-page .form-label {
+    display: block;
+    margin-bottom: .5em;
+    color: #666;
+  }
+  
+  .login-page .form-control {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-page .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #5cb85c;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .login-page .btn-primary:hover {
+    background-color: #449d44;
+  }
+  
+  .login-page p {
+    margin-top: 2em;
+    color: rgb(104, 52, 52);
+  }
+  
+  .login-page a {
+    color: #5cb85c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .login-page a:hover {
+    color: #449d44;
+  }
+  
+
+
+
+
+
+
+  /*******Signup page*****************************
+  /* Basic Reset */
+* /* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.Signup-Page {
+  background-image: url('Gym Pic3.jpg'); /* Update with the correct path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* This style applies to the name input */
+input[type=email],
+input[type=password],
+input[type=text], /* Name input style */
+input[type=date],
+input[type=tel],
+input[type=file],
+input[type=number], /* Age input style */
+select { /* Gender select style */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* The focus styles also apply to the name and gender fields */
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus, /* Name input focus style */
+input[type=date]:focus,
+input[type=tel]:focus,
+input[type=file]:focus,
+input[type=number]:focus, /* Age input focus style */
+select:focus { /* Gender select focus style */
+  border-color: #4a90e2;
+}
+
+button.btn-primary {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button.btn-primary:hover {
+  background-color: #357ab8;
+}
+
+.form-check-label {
+  user-select: none;
+  padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
